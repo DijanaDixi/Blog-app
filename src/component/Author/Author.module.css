@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+    color: #606f5d;
+}
+
+.back {
+    color: 73615c;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.img {
+    background-image: url("https://i.pinimg.com/originals/da/9c/be/da9cbe0a07b10fe8444f5c8a1c7a2c38.jpg");
+    background-repeat: no-repeat, repeat;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: #606f5d;
+    border: 2px solid #73615c;
+}
+
+.details p {
+    color: 73615c;
+}

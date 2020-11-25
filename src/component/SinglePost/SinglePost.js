@@ -44,7 +44,7 @@ function SinglePost(props) {
   const morePostsFromSameAuthor = morePosts.map((post) => {
     return (
       <div key={post.id}>
-        <Link to="/#" className={styles.linkPosts}>
+        <Link to={"/author/" + post.userId} className={styles.linkPosts}>
           <h2>{post.title}</h2>
         </Link>
       </div>

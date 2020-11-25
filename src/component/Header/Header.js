@@ -12,21 +12,21 @@ function Header() {
         <NavLink
           to="/"
           exact
-          className="nav-link "
+          className="nav-link pr-5"
           activeStyle={{ color: "#606f5d" }}
         >
           Home
         </NavLink>
         <NavLink
           to="/authors"
-          className="nav-link "
+          className="nav-link pr-5"
           activeStyle={{ color: "#606f5d" }}
         >
           Autors
         </NavLink>
         <NavLink
           to="/about"
-          className="nav-link "
+          className="nav-link pr-5"
           activeStyle={{ color: "#606f5d" }}
         >
           About

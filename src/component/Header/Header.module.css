@@ -1,11 +1,12 @@
 .blog {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
 }
 .logo{
-     color: #717967;
+     /* color: #717967; */
+     color: white;
 }
 ul{
-    font-size: 30px;
-
+    font-size: 35px;
+   
 }

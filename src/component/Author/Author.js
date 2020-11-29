@@ -57,16 +57,18 @@ function Author(props) {
       <h1 className={styles.title}>Author</h1>
 
       {/* Name Surname */}
-      <div className="row">
+      <div className={`row ${styles.alignItems}`}>
         <div className="col-6 mt-80 ">
-          <div className={styles.img}></div>
+          <div >
+            <img src='https://i.pinimg.com/originals/da/9c/be/da9cbe0a07b10fe8444f5c8a1c7a2c38.jpg' alt=""/>
+          </div>
         </div>
         <div className="col-4">
           <h2>{author.name}</h2>
           <div className={styles.details}>
             <p>{`Username:  ${author.username}`}</p>
-            <p>{`mail: ${author.email}`}</p>
-            <p>{`phone: ${author.phone}`}</p>
+            <p>{`Mail: ${author.email}`}</p>
+            <p>{`Phone: ${author.phone}`}</p>
           </div>
         </div>
       </div>
@@ -78,9 +80,9 @@ function Author(props) {
         <div className="col-6">
           <h2>Address</h2>
           <div className={styles.details}>
-            <p>{`street: ${street}`}</p>
+            <p>{`Street: ${street}`}</p>
             <p>{author?.address?.city || "- -"}</p>
-            <p>{`zipcode: ${zipcode}`}</p>
+            <p>{`Zipcode: ${zipcode}`}</p>
           </div>
         </div>
         <div className="col-4">
@@ -92,7 +94,7 @@ function Author(props) {
             marginWidth="0"
             title={street}
             frameBorder="0"
-            style={{ border: "2px solid #73615c" }}
+          
             src={`https://maps.google.com/maps?q=${lat},${lng}&z=15&output=embed`}
           />
         </div>
@@ -105,8 +107,8 @@ function Author(props) {
         <div className="col-6">
           <h2>Company</h2>
           <div className={styles.details}>
-            <p>{`name:  ${company}`}</p>
-            <p>{`phrase:  ${phrase}`}</p>
+            <p>{`Name:  ${company}`}</p>
+            <p>{`Phrase:  ${phrase}`}</p>
           </div>
         </div>
       </div>

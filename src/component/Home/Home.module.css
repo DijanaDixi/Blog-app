@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 body {
-    background-image: url('https://images.creativemarket.com/0.1.0/ps/4425285/1820/1213/m1/fpnw/wm1/vik7fgnk6iwb50vfgssyyfa7poutctycxhyvnqgbzrjtqwhesbczznkbqctjidpx-.jpg?1525851628&s=e87b83a22fea6d9766b62ee6af9cc721');
-    background-size: 100%;
-    background-repeat: repeat;
+     background-color: #d9edf0;
     font-family: 'Nerko One', cursive;
 }
 
@@ -36,4 +34,15 @@ h2 {
 p {
     color: white;
     font-size: 25px;
+}
+@media(max-width: 920px){
+    p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px; 
+    }
+    .title{
+        font-size: 35px;
+    }
 }

@@ -3,3 +3,8 @@
     margin-top:50px;
     margin-bottom: 30px;
 }
+@media(max-width: 920px){
+    .title{
+        font-size: 30px;
+    }
+}

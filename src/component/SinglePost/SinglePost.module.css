@@ -11,3 +11,9 @@
     color:  #606f5d;;
 }
 
+@media(max-width: 920px){
+
+    .title{
+        font-size: 35px;
+    }
+}
